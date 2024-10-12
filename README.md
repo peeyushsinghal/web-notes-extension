@@ -43,14 +43,3 @@ Web Notes is a Chrome extension that allows users to easily capture and manage n
 - Maximum of 50 notes stored
 - Each note is limited to 150 characters
 
-## Author
-
-Peeyush Singhal
-
-## License
-
-[Add your chosen license here]
-
-## Contributing
-
-[Add contribution guidelines if you want to accept contributions]
