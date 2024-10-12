@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Note</title>
+  <style>
+    body {
+      width: 400px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    button {
+      margin: 5px;
+      padding: 5px 10px;
+      background-color: #4688F1;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 0.9em;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 15px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+    .note-info {
+      font-size: 0.8em;
+      color: #666;
+      margin-top: 5px;
+    }
+    .controls {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .controls label {
+      margin-right: 10px;
+      font-size: 0.9em;
+    }
+    .note-text {
+      display: inline;
+      margin-left: 5px;
+    }
+    .edit-mode textarea {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>WebNotes (TM)</h1>
+  <div class="controls">
+    <input type="checkbox" id="selectAll">
+    <label for="selectAll">Select All</label>
+    <button id="copy">Copy</button>
+    <button id="delete">Delete</button>
+    <button id="edit">Edit</button>
+    <button id="refresh">Refresh</button>
+  </div>
+  <ul id="notesList"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>

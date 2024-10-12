@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Web Notes",
+  "version": "1.0",
+  "description": "Take notes from selected text on web pages",
+  "permissions": ["contextMenus", "storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "author": "Peeyush Singhal"
+}
